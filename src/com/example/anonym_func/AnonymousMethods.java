@@ -9,7 +9,7 @@ interface SumCalc {
 interface MultiplyCalc {
     int multiply(int input1,int input2);
 }
-public class AnonymousMethod {
+public class AnonymousMethods {
     public static void main(String[] args) {
         // Since only one abstract method is there in interface(functional interface).
         // we can create anonymous method for such interfaces.
